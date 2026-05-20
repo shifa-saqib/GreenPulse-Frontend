@@ -13,7 +13,7 @@ import {
   ActivityIndicator,
   Alert
 } from 'react-native';
-import { auth, db } from '../../services/firebaseConfig';
+import { auth, db } from '../../firebase';
 import { doc, updateDoc } from 'firebase/firestore';
 
 export default function NicknameScreen({ navigation }: any) {
